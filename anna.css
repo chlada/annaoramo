@@ -55,11 +55,11 @@ p {
 	margin-bottom: 40px;
 }
 
-text.source {
+.source {
 	text-align: right;
 }
 
-text.block {
+.block {
 	text-align: justify;
 	width: 800px;
 }
