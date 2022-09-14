@@ -24,12 +24,14 @@ body {
 	font-family: "EB Garamond";
 	color: #91764a;
 	width: 800px;
+	font-size: 18px;
 }
 
 h1 {
 	font-weight: normal;
-	font-size: 4em;
+	font-size: 3.6em;
 	text-align: center;
+	margin-top: 4px;
 }
 
 h2 {
@@ -51,15 +53,54 @@ p {
 
 .portrait {
 	width: 800px;
-	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 .source {
 	text-align: right;
+	margin-bottom: 80px;
 }
 
 .block {
 	text-align: justify;
 	width: 800px;
 }
+
+/***********/
+/*hauptmenü*/
+/***********/
+.hauptmenu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	width: 800px;
+ 	height: 40px;
+}
+
+.menubutton {
+  width: 100%;
+  padding: 4px 15px;
+  color: #91764a;
+  background-color: #f1d6aa;
+  text-decoration: none;
+  border: none;
+  font-size: 1.5em;
+}
+
+.menubutton:hover{
+  color: #91764a;
+  background-color: #f1d6aa;
+  text-decoration: underline;	
+}
+
+.menubutton_active {
+  width: 100%;
+  padding: 4px 15px;
+  color: #91764a;
+  background-color: #f1d6aa;
+  text-decoration: underline;
+  border: none;
+  font-size: 1.5em;
+}
+/****************/
+/*hauptmenü ende*/
+/****************/
