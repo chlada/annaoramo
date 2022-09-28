@@ -82,6 +82,10 @@ a:hover {
 	color: #3f1066;
 }
 
+span {
+	font-size: 1em;
+}
+
 .portrait {
 	width: 400px;
 	margin-left: 200px;
