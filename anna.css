@@ -18,12 +18,10 @@ html {
 }
 
 body {
-	/*background-color: #f6dbae;*/
 	background-color: #fbf1f1;
 	display: table-cell;
 	vertical-align: middle;
 	font-family: "EB Garamond";
-	/*color: #91764a;*/
 	color: #3b3131;
 	width: 800px;
 	font-size: 18px;
@@ -87,8 +85,8 @@ span {
 }
 
 .portrait {
-	width: 400px;
-	margin-left: 200px;
+	width: 600px;
+	margin-left: 100px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -107,9 +105,25 @@ p.photogr {
 	margin-bottom: 40px;
 }
 
+.cd {
+	width: 100px;
+	float: left;
+	margin-right: 40px;
+}
+
+/*a.cd {
+	float: left;
+}*/
+
+p.cd {
+	width: 800px;
+	clear: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .source {
 	text-align: center;
-	/*margin-bottom: 80px;*/
 }
 
 .block {
@@ -132,18 +146,12 @@ p.photogr {
 .menubutton {
 	width: 100%;
 	padding: 4px 15px;
-	/*color: #91764a;*/
 	color: #3f1066;
-	/*background-color: #f1d6aa;*/
 	text-decoration: none;
 	border: none;
-	/*font-size: 1.5em;*/
 }
 
 .menubutton:hover{
-	/*color: #91764a;*/
-	/*color: #3a0b61;*/
-	/*background-color: #f1d6aa;*/
 	text-decoration: underline;	
 }
 
@@ -156,7 +164,6 @@ p.photogr {
 	/*background-color: #f1d6aa;*/
 	text-decoration: underline;
 	border: none;
-	/*font-size: 1.5em;*/
 }
 /****************/
 /*hauptmenü ende*/
@@ -263,3 +270,16 @@ h2.sing {
 	margin-bottom: 200px;
 }
 
+.small {
+	float: left;
+	width: 30px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+menu.small {
+	width: 140px;
+	margin-top: 100px;
+	margin-left: 330px;
+	padding: 0px;
+}
