@@ -62,9 +62,9 @@ h5 {
 
 h6 {
 	font-weight: normal;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	text-align: center;
-	
+	margin-bottom: 100px;	
 }
 
 p {
@@ -108,18 +108,15 @@ p.photogr {
 .cd {
 	width: 100px;
 	float: left;
-	margin-right: 40px;
+	margin-right: 24px;
 }
-
-/*a.cd {
-	float: left;
-}*/
 
 p.cd {
 	width: 800px;
+	text-align: justify;
 	clear: left;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 60px;
 }
 
 .source {
@@ -266,8 +263,8 @@ h2.sing {
 /***********************/
 
 .thanks {
-	margin-top: 200px;
-	margin-bottom: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .small {
@@ -282,4 +279,24 @@ menu.small {
 	margin-top: 100px;
 	margin-left: 330px;
 	padding: 0px;
+}
+
+.button {
+	width: 280px;
+	margin-left: 248px;
+	font-size: 1.8em;
+	border: 2px solid #3b3131;
+	background-color: #ebe1e1;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.button:active {
+	background-color: #fbf1f1;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #fbf1f1;
+	text-decoration: none;
 }
